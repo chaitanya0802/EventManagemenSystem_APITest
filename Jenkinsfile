@@ -2,8 +2,8 @@ pipeline {
     agent any
  
     tools {
-        maven 'maven 3.9.11'  // Name as configured in Jenkins
-        jdk 'jdk-21'     // Name of JDK configured in Jenkins
+        maven 'maven 3.9.11'  
+        jdk 'jdk-21'   
     }
  
     environment { 
@@ -12,6 +12,7 @@ pipeline {
         REPORT_PATH = 'target/surefire-reports'
     }
  
+    //stags
     stages {
         stage('Checkout Code') {
             steps {
@@ -27,11 +28,11 @@ pipeline {
  
         stage('Publish Reports') {
             steps {
-                // Publish Extent report
+		//report
                 publishHTML(target: [
                     reportName: 'Extent Report',
-                    reportDir: 'target/reports',  // change if your folder is different
-                    reportFiles: 'ExtentReport.html',          // change file name if different
+                    reportDir: 'target/reports', 
+                    reportFiles: 'ExtentReport.html',     
                     keepAll: true,
                     alwaysLinkToLastBuild: true,
                     allowMissing: false
