@@ -1,0 +1,8 @@
+baseURI=https://webapps.tekstac.com
+loginresource=/OAuthRestApi/webapi/auth/login
+accesstokenresource=/OAuthRestApi/webapi/auth/token
+viewbookinglistresource=/TrainAPI/BookingService/viewBookingList
+viewbookingbyidresource=/TrainAPI/BookingService/viewBookingById/
+viewbookingbytrainclassresource=/TrainAPI/BookingService/viewBookingByClass
+addbookingresource=/TrainAPI/BookingService/addBooking
+deletebookingbyidresource=/TrainAPI/BookingService/deleteBookingById

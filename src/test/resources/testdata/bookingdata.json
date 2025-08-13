@@ -1,0 +1,14 @@
+[
+	{
+	  "bookingId": 15,
+	  "bookingDate": "01/01/2022",
+	  "departCity": "Pune",
+	  "arrivalCity": "Chennai",
+	  "passengerCount": 3,
+	  "trainName": "ChennaiExpress",
+	  "passengerName": "Chaitanya",
+	  "trainClass": "ThirdAC",
+	  "ticketType": "GENERAL"
+	}
+
+]
