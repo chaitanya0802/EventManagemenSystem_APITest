@@ -30,3 +30,51 @@
 [2025-08-12 14:55:18] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
 [2025-08-12 14:55:18] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
 [2025-08-12 14:55:18] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest
+[2025-08-13 11:28:40] [INFO] utlities.RestassuredUtlities - initialized
+[2025-08-13 11:28:43] [INFO] utlities.RestassuredUtlities - == called login req
+[2025-08-13 11:28:43] [INFO] utlities.RestassuredUtlities - == called accessTokenRequest
+[2025-08-13 11:28:44] [INFO] utlities.RestassuredUtlities - == called viewBookingListRequest
+[2025-08-13 11:28:44] [INFO] utlities.RestassuredUtlities - == called viewBookingByIdRequest
+[2025-08-13 11:28:44] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
+[2025-08-13 11:28:44] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
+[2025-08-13 11:28:44] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest
+[2025-08-13 11:46:48] [INFO] utlities.RestassuredUtlities - initialized
+[2025-08-13 11:46:50] [INFO] utlities.RestassuredUtlities - == called login req
+[2025-08-13 11:46:50] [INFO] utlities.RestassuredUtlities - == called accessTokenRequest
+[2025-08-13 11:46:50] [INFO] utlities.RestassuredUtlities - == called viewBookingListRequest
+[2025-08-13 11:46:50] [INFO] utlities.RestassuredUtlities - == called viewBookingByIdRequest
+[2025-08-13 11:46:50] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
+[2025-08-13 11:46:51] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
+[2025-08-13 11:46:51] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest
+[2025-08-13 12:39:38] [INFO] utlities.RestassuredUtlities - initialized
+[2025-08-13 12:39:40] [INFO] utlities.RestassuredUtlities - == called login req
+[2025-08-13 12:39:40] [INFO] utlities.RestassuredUtlities - == called accessTokenRequest
+[2025-08-13 12:39:41] [INFO] utlities.RestassuredUtlities - == called viewBookingListRequest
+[2025-08-13 12:39:41] [INFO] utlities.RestassuredUtlities - == called viewBookingByIdRequest
+[2025-08-13 12:39:41] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
+[2025-08-13 12:39:41] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
+[2025-08-13 12:39:41] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest
+[2025-08-13 12:41:28] [INFO] utlities.RestassuredUtlities - initialized
+[2025-08-13 12:41:30] [INFO] utlities.RestassuredUtlities - == called login req
+[2025-08-13 12:41:30] [INFO] utlities.RestassuredUtlities - == called accessTokenRequest
+[2025-08-13 12:41:30] [INFO] utlities.RestassuredUtlities - == called viewBookingListRequest
+[2025-08-13 12:41:30] [INFO] utlities.RestassuredUtlities - == called viewBookingByIdRequest
+[2025-08-13 12:41:31] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
+[2025-08-13 12:41:31] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
+[2025-08-13 12:41:31] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest
+[2025-08-13 12:43:16] [INFO] utlities.RestassuredUtlities - initialized
+[2025-08-13 12:43:18] [INFO] utlities.RestassuredUtlities - == called login req
+[2025-08-13 12:43:18] [INFO] utlities.RestassuredUtlities - == called accessTokenRequest
+[2025-08-13 12:43:18] [INFO] utlities.RestassuredUtlities - == called viewBookingListRequest
+[2025-08-13 12:43:18] [INFO] utlities.RestassuredUtlities - == called viewBookingByIdRequest
+[2025-08-13 12:43:19] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
+[2025-08-13 12:43:19] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
+[2025-08-13 12:43:19] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest
+[2025-08-13 12:43:37] [INFO] utlities.RestassuredUtlities - initialized
+[2025-08-13 12:43:38] [INFO] utlities.RestassuredUtlities - == called login req
+[2025-08-13 12:43:38] [INFO] utlities.RestassuredUtlities - == called accessTokenRequest
+[2025-08-13 12:43:39] [INFO] utlities.RestassuredUtlities - == called viewBookingListRequest
+[2025-08-13 12:43:39] [INFO] utlities.RestassuredUtlities - == called viewBookingByIdRequest
+[2025-08-13 12:43:39] [INFO] utlities.RestassuredUtlities - == called viewBookingByTrainClassRequest
+[2025-08-13 12:43:39] [INFO] utlities.RestassuredUtlities - == called addBookingRequest
+[2025-08-13 12:43:39] [INFO] utlities.RestassuredUtlities - == called deleteBookingByidRequest

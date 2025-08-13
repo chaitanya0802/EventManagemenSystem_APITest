@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T14:55:13 IST" name="APITest Suite" finished-at="2025-08-12T14:55:18 IST" duration-ms="4948">
+  <suite started-at="2025-08-13T12:41:28 IST" name="APITest Suite" finished-at="2025-08-13T12:41:31 IST" duration-ms="3171">
     <groups>
     </groups>
-    <test started-at="2025-08-12T14:55:13 IST" name="API Tests" finished-at="2025-08-12T14:55:18 IST" duration-ms="4948">
+    <test started-at="2025-08-13T12:41:28 IST" name="API Tests" finished-at="2025-08-13T12:41:31 IST" duration-ms="3171">
       <class name="apitest.APITest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:13 IST" name="beforeTest" finished-at="2025-08-12T14:55:14 IST" duration-ms="770" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:28 IST" name="beforeTest" finished-at="2025-08-13T12:41:28 IST" duration-ms="552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login()[pri:1, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:14 IST" name="login" finished-at="2025-08-12T14:55:16 IST" duration-ms="2283" status="PASS">
+        <test-method signature="login()[pri:1, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:28 IST" name="login" finished-at="2025-08-13T12:41:30 IST" duration-ms="1553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="getAccessToken()[pri:2, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:16 IST" name="getAccessToken" finished-at="2025-08-12T14:55:17 IST" duration-ms="384" status="PASS">
+        <test-method signature="getAccessToken()[pri:2, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:30 IST" name="getAccessToken" finished-at="2025-08-13T12:41:30 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAccessToken -->
-        <test-method signature="viewBookingList()[pri:3, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:17 IST" name="viewBookingList" finished-at="2025-08-12T14:55:17 IST" duration-ms="471" status="PASS">
+        <test-method signature="viewBookingList()[pri:3, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:30 IST" name="viewBookingList" finished-at="2025-08-13T12:41:30 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewBookingList -->
-        <test-method signature="viewBokingById()[pri:0, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:17 IST" name="viewBokingById" finished-at="2025-08-12T14:55:17 IST" depends-on-methods="apitest.APITest.viewBookingList" duration-ms="239" status="PASS">
+        <test-method signature="viewBokingById()[pri:0, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:30 IST" name="viewBokingById" finished-at="2025-08-13T12:41:30 IST" depends-on-methods="apitest.APITest.viewBookingList" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewBokingById -->
-        <test-method signature="viewBokingByTrainClass()[pri:0, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:17 IST" name="viewBokingByTrainClass" finished-at="2025-08-12T14:55:18 IST" depends-on-methods="apitest.APITest.viewBookingList" duration-ms="313" status="PASS">
+        <test-method signature="viewBokingByTrainClass()[pri:0, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:30 IST" name="viewBokingByTrainClass" finished-at="2025-08-13T12:41:31 IST" depends-on-methods="apitest.APITest.viewBookingList" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewBokingByTrainClass -->
-        <test-method signature="addBooking()[pri:4, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:18 IST" name="addBooking" finished-at="2025-08-12T14:55:18 IST" duration-ms="246" status="PASS">
+        <test-method signature="addBooking()[pri:4, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:31 IST" name="addBooking" finished-at="2025-08-13T12:41:31 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBooking -->
-        <test-method signature="deleteBookingByid()[pri:5, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:18 IST" name="deleteBookingByid" finished-at="2025-08-12T14:55:18 IST" duration-ms="189" status="PASS">
+        <test-method signature="deleteBookingByid()[pri:5, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:31 IST" name="deleteBookingByid" finished-at="2025-08-13T12:41:31 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBookingByid -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:apitest.APITest@407cf41]" started-at="2025-08-12T14:55:18 IST" name="afterTest" finished-at="2025-08-12T14:55:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:apitest.APITest@6815c5f2]" started-at="2025-08-13T12:41:31 IST" name="afterTest" finished-at="2025-08-13T12:41:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

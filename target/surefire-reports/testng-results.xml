@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T12:43:36 IST" name="APITest Suite" finished-at="2025-08-13T12:43:39 IST" duration-ms="3078">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T12:43:36 IST" name="API Tests" finished-at="2025-08-13T12:43:39 IST" duration-ms="3078">
+      <class name="apitest.APITest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:36 IST" name="beforeTest" finished-at="2025-08-13T12:43:37 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:1, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:37 IST" name="login" finished-at="2025-08-13T12:43:38 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="getAccessToken()[pri:2, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:38 IST" name="getAccessToken" finished-at="2025-08-13T12:43:38 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccessToken -->
+        <test-method signature="viewBookingList()[pri:3, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:38 IST" name="viewBookingList" finished-at="2025-08-13T12:43:39 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewBookingList -->
+        <test-method signature="viewBokingById()[pri:0, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:39 IST" name="viewBokingById" finished-at="2025-08-13T12:43:39 IST" depends-on-methods="apitest.APITest.viewBookingList" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewBokingById -->
+        <test-method signature="viewBokingByTrainClass()[pri:0, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:39 IST" name="viewBokingByTrainClass" finished-at="2025-08-13T12:43:39 IST" depends-on-methods="apitest.APITest.viewBookingList" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewBokingByTrainClass -->
+        <test-method signature="addBooking()[pri:4, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:39 IST" name="addBooking" finished-at="2025-08-13T12:43:39 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBooking -->
+        <test-method signature="deleteBookingByid()[pri:5, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:39 IST" name="deleteBookingByid" finished-at="2025-08-13T12:43:39 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingByid -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:apitest.APITest@3d08f3f5]" started-at="2025-08-13T12:43:39 IST" name="afterTest" finished-at="2025-08-13T12:43:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- apitest.APITest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- APITest Suite -->
+</testng-results>

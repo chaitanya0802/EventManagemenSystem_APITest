@@ -9,7 +9,7 @@ public class ExtentReportManager {
 
     public static ExtentReports getReporter() {
         if (extent == null) {
-            String reportPath = System.getProperty("user.dir") + "/test-output/reports/ExtentReport.html";
+            String reportPath = System.getProperty("user.dir") + "/target/reports/ExtentReport.html";
             ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
             reporter.config().setDocumentTitle("API Test Report");
             reporter.config().setReportName("RestAssured API Test Execution");
