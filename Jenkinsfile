@@ -22,7 +22,7 @@ pipeline {
  
         stage('Build & Run Tests') {
             steps {
-               bat 'mvn test -DsuiteXmlFile=testng.xml || exit 0'
+               bat 'mvn test -DsuiteXmlFile=testng.xml'
             }
         }
  
