@@ -4,6 +4,7 @@ pipeline {
     tools {
         maven 'maven 3.9.11'  
         jdk 'jdk-21'   
+	docker 'docker-win'
     }
  
     environment { 
@@ -16,6 +17,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
+		bat 'docker --version'
                 git branch: "${BRANCH}", url: "${GIT_REPO}"
             }
         }
