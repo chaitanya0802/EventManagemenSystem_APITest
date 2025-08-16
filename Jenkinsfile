@@ -16,7 +16,6 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-		bat 'docker --version'
                 git branch: "${BRANCH}", url: "${GIT_REPO}"
             }
         }
