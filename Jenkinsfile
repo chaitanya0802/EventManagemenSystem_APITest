@@ -4,7 +4,6 @@ pipeline {
     tools {
         maven 'maven 3.9.11'  
         jdk 'jdk-21'   
-	docker 'docker-win'
     }
  
     environment { 
